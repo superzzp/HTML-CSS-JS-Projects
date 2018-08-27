@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyCollege</title>
+	<meta charset="utf-8">
+	<!-- essential for any responsive project -->
+	<!-- tell browser to set webpage width equal to device's width -->
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<!-- Custom CSS -->
+	<link rel = "stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Normalize CSS -->
+	<link rel = "stylesheet" type="text/css" href="css/normalize.css">
+
+	<!-- HTML5 Shiv -->
+	<script type="text/javascript" src="js/html5shiv.js"></script>
+	<!-- Picturefill Support -->
+	<!-- use async to make browser download the js file at the same time as the rest of the web content so won't block any downloads  -->
+	<script type="text/javascript" src="js/picturefill.min.js" async></script>
+</head>
+<body>
+	
+	<header>
+		
+		<picture>
+			<source media="(min-width: 1100px)" 
+					srcset="images/university-1100.jpg">
+			<source media="(min-width: 900px)" 
+					srcset="images/university-900.jpg">
+			<img src = "images/university-600.jpg" alt = "university-image">
+		</picture>
+		
+		<div id = "logo"><p>MyCollege</p></div>
+		
+		<p>Now Taking Online Applications</p>
+		
+		<p id = "apply-btn"><a href="">Apply Here</a></p>
+
+		<nav>
+			<ul>
+				<li><a href="">STUDENT LOGIN</a></li>
+				<li><a href="">TEACHER LOGIN</a></li>
+				<li><a href="">REGISTER</a></li>
+				<li><a href="">CONTACT US</a></li>
+			</ul>
+		</nav>
+	
+	</header>
+	<main>
+		<div class="row1-1">
+			<!-- writing like this can create an entire hyperlink with image at the top and words at the bottom;  -->
+			<div class="buttons"><a href=""><img src="images/magnifying.png">Take a tour</a></div>
+			<div class="buttons"><a href=""><img src="
+			images/arrow.png">Success stories</a></div>
+			<div class="buttons"><a href=""><img src="
+			images/calendar.png">Important dates</a></div>
+		</div>
+		
+		<div class= "row1-2">
+			<p>Browse our most popular courses
+				<span><a href="">here</a></span></p>
+		</div>
+
+		<div class = "row2">
+			<p>Want to know more about life at myCollege?</p>
+			<p>See what our former students have to say</p>
+
+			<div class = "tom">
+				<a href="">
+				<img src="images/man.png">
+				<p>Tom's Story</p>
+				</a>
+			</div>
+
+			<div class = "sarah">
+				<a href="">
+				<img src="images/woman.png">
+				<p>Sarah's Story</p>
+				</a>
+			</div>
+		</div>
+
+		<div class = "row3">
+			<div class="row3-1">
+				<p>Discover our state of the art facilities
+					<span><a href="">here</a></span></p>
+			</div>
+			<div class="row3-2">
+				<img src = "images/volleyball.jpg">
+			</div>
+		</div>
+	</main>
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="">COURSE FINDER</a></li>
+				<li><a href="">WHY US?</a></li>
+				<li><a href="">HOW TO APPLY</a></li>
+			</ul>
+		</nav>
+		<!-- find the copy right symbol by checking html entities -->
+		<p>&copy; MyCollege 2015</p>
+
+	</footer>
+</body>
+</html>
