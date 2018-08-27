@@ -1,4 +1,4 @@
-# HTML-CSS-Projects
+# HTML-CSS-JS-Projects
 Some web pages that I designed with HTML5/CSS/JavaScript </br>
 <pre>
 1.MyCollege: A mainpage for a college during its admission period
