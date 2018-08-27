@@ -2,7 +2,7 @@
 Some web pages that I designed with HTML5/CSS: </br>
 <pre>
 1.MyCollege: A mainpage for a college during its admission period
-             Utilize adaptive web design and will show 3 different </br>
+             Utilize adaptive web design and will show 3 different 
              web layouts based on the width of the browser
 
 2.MyRecipes: A homepage for recipes</br>
